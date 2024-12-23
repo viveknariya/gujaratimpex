@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-image {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 0;
+  transition: opacity 0.3s;
+  opacity: 1; /* Initial opacity */
+}
+.bg-image:hover {
+  opacity: 0.5; /* Hover opacity */
+}
+.peanuts {
+  background-image: url("./images/p1.jpg");
+}
+.fennel {
+  background-image: url("./images/p2.jpg");
+}
+.cumin {
+  background-image: url("./images/p3.jpg");
+}
+.guar {
+  background-image: url("./images/p4.jpg");
+}
